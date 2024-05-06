@@ -22,7 +22,7 @@ public class FarmerListController {
 	
     @GetMapping("/farmer")
 	public Farmer getFarmerName() {
-		return new Farmer("Saranya","Palanisamy");
+		return new Farmer("Saranya","Palanisamy"); 
 	}
     
     @GetMapping("/allFarmer")
