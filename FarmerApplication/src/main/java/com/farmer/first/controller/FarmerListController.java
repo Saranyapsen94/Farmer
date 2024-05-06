@@ -31,6 +31,7 @@ public class FarmerListController {
     	lst.add(new Farmer("Sara","asd"));
     	lst.add(new Farmer("Vasu","123"));
     	lst.add(new Farmer("Pavi","asd"));
+    	lst.add(new Farmer("duplicate","value"));
 		return lst;
     }
     
