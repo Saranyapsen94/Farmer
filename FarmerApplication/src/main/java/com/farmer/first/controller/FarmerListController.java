@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class FarmerListController {
 	
 	
-	@GetMapping("/farmerlist") 
+	@GetMapping("/farmerlist")   
 	public String farmerList() { 
 	return "Hi i am from getmethod"; }
 	 
